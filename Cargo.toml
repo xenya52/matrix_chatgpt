@@ -9,5 +9,6 @@ edition = "2021"
 matrix-sdk = "0.6.2"
 anyhow = "1.0"
 tokio = { version = "1", features = ["full"] }
-openai-api-rs = "2.1.4"
+openai-api-rs = "2.1.6"
 dotenv = "0.15"
+tracing = "0.1"

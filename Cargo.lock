@@ -1334,6 +1334,7 @@ dependencies = [
  "matrix-sdk",
  "openai-api-rs",
  "tokio",
+ "tracing",
 ]
 
 [[package]]
@@ -1443,9 +1444,9 @@ checksum = "624a8340c38c1b80fd549087862da4ba43e08858af025b236e509b6649fc13d5"
 
 [[package]]
 name = "openai-api-rs"
-version = "2.1.5"
+version = "2.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "24418332e274230f17b778677c29a5152c6f1b9df29785d8f8ec09e20881c8a8"
+checksum = "83ff75bff7a098f902c0bcb9acfb4a79f914ad03c798c8b59fd96d722c3a8fdc"
 dependencies = [
  "minreq",
  "serde",
