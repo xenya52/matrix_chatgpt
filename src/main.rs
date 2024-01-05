@@ -9,7 +9,7 @@ async fn main() -> Result<(), reqwest::Error> {
     
     let api_key = env::var("OPENAI_API_KEY").expect("OPENAI_API_KEY not found");
     let client = reqwest::Client::new();
-    let response = client.post("https://api.openai.com/v1/engines/davinci-codex/completions")
+    let response = client.post("https://api.openai.com/v1/chat/completions")
         .header("Authorization", format!("Bearer {}", api_key))
         .json(&json!({
             "prompt": "Hello, World!",
